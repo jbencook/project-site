@@ -1,9 +1,3 @@
-Helping farmers harness the power of data...
-
 Home: Welcome message, about me.
-Visualization: Link to dashboard
-Modeling Macro Yield: Simple Regression, CAR
-Modeling Micro Yield: GP for Big Data, Using NDVI, 
-                      soil moisture, soil type
-Sampling Moisture: Simulated Annealing
+Visualization: GitHub Network, Bar Chart
 Data Munging and Storage: Scraping soil type, Some code, PostGIS
