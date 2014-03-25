@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>J. Benjamin Cook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="/css/bootswatch.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+    // Google Analytics Here
+
+    </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+    <script type="text/javascript">
+    init_mathjax = function() {
+        if (window.MathJax) {
+            // MathJax loaded
+            MathJax.Hub.Config({
+              config: ['MMLorHTML.js'], 
+                jax: ['input/TeX','output/HTML-CSS'],
+                TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } },
+                extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js'],
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+                    displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+                    processEscapes: true
+                },
+                //displayAlign: 'left', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: { '.MathJax .mo, .MathJax .mi': {color: 'black ! important'}}
+                }
+            });
+            MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        }
+    }
+    init_mathjax();
+    </script>
+    <style>
+    .top-buffer { margin-top:50px; }    
+    </style>
+  </head>
+  <body>
+    <script src="js/bsa.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script>
+      $(function(){
+        $("#myNavBar").load("/assets/html/navbar.html"); 
+      });
+      $(function(){
+        $("#myFooter").load("/assets/html/footer.html"); 
+      });      
+    </script>
+    <div id="myNavBar"></div>
+    <div class="container">
+    <div class="col-lg-9">
+
+<h1>The dynamics of network-religion autocorrelation in adolescent friendship networks</h1>
+</br>
+<p>
+Strong social ties like friendships and marriages tend to exist between people who are similar to one another. It is true for unchanging characteristics, such as race and gender; and it is true for attributes over which we have control, such as political orientation and religion. This pattern is typically referred to as homophily (in my thesis I use the term &#8220;network autocorrelation&#8221; which is less ambiguous, but more cumbersome). Homophily arises because a) people prefer to form relationships with people who are similar to themselves, a mechanism called selection, and/or b) people become more similar to their friends over time, a mechanism called influence.
+</p>
+<p>
+The main point of my thesis research is to understand whether selection, influence, or both mechanisms drive religious homophily in adolescent friendship networks. I use Stochastic Actor-Oriented Models of network and religion dynamics from the <a href="http://www.stats.ox.ac.uk/~snijders/siena/siena_r.htm" title="RSiena">RSiena</a> package. Here is a plot of the two social networks I analyze:</p>
+<div class="row top-buffer">
+        <div class="col-lg-6" style="padding: 15px 15px 0px 0px;">
+          <img class="img-thumbnail" src="/assets/img/medium_network.png" border="5"></img>
+        </div> 
+        <div class="col-lg-6" style="padding: 15px 15px 0px 0px;">
+          <img class="img-thumbnail" src="/assets/img/large_network.png" border="5"></img>
+        </div>  
+</div>
+
+<div class="top-buffer">
+<p>
+The plot on the left is the &#8220;medium&#8221; school (N = 646) and the plot on the right is the &#8220;large&#8221; school (N = 1,207). An arrow from node A to node B indicates that the student represented by node A nominated the student represented by node B in the social network survey (data come from the National Longitudinal Study of Adolescent Health). The color of the nodes corresponds to religiosity such that the darker blue the node is, the more religious the student is. The green nodes represent missing religion data. The size of the nodes is determined by the popularity of the student.
+</p>
+<p>
+Here is a link to my thesis: <a href="/assets/pdf/cook-thesis.pdf" title="The Dynamics of Network-Religion Autocorrelation in Adolescent Friendship Networks">The Dynamics of Network-Religion Autocorrelation in Adolescent Friendship Networks</a>. Spoiler alert: selection and influence both drive religious homophily (network-religion autocorrelation) in adolescent friendship networks.</p>
+<h2>Acknowledgements</h2>
+<p>
+My research extends a study done by my co-advisors, Professors Jacob E. Cheadle and Philip Schwadel. Their guidance and support were invaluable. I am also very appreciative of my third committee member, Professor Dong Wang.</p>
+</div>
+      <div id="myFooter"></div>  
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootswatch.js"></script>
+  </body>
+
+</html>

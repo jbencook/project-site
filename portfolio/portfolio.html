@@ -41,7 +41,10 @@
         }
     }
     init_mathjax();
-    </script>    
+    </script>
+    <style>
+    .top-buffer { margin-top:50px; }    
+    </style>
   </head>
   <body>
     <script src="js/bsa.js"></script>
@@ -69,7 +72,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6" style="padding: 100px 50px 0px 0px;">
           <h2><a href="/portfolio/bayesian_logistic_regression.html">Bayesian logistic regression</a></h2>
           <p>The <a href="http://archive.ics.uci.edu/ml/datasets/Adult">Adult Data Set</a> is commonly used to benchmark machine learning algorithms. The goal is to use demographic features, or variables, to predict whether an individual makes more than <span class="tex2jax_ignore">$</span>50,000 per year. The data set is almost 20 years old, and therefore, not perfect for determining the probability that I will earn more than <span class="tex2jax_ignore">$</span>50K, but it is a nice, simple dataset that can be used to showcase a few benefits of using Bayesian logistic regression over its frequentist counterpart.</p>          
         </div>
@@ -77,6 +80,40 @@
           <img class="img-thumbnail" src="/assets/img/bayes_glm_histogram.png" border="5"></img>
         </div>
       </div>
+
+      <div class="row top-buffer">
+        <div class="col-lg-6" style="padding: 15px 15px 0px 0px;">
+          <img class="img-thumbnail" src="/assets/img/large_network.png" border="5"></img>
+        </div>
+        <div class="col-lg-6" style="padding: 75px 50px 0px 50px;">
+          <h2><a href="/portfolio/social_network_dynamics.html">Social network dynamics</a></h2>
+          <p>Strong social ties like friendships and marriages tend to exist between people who are similar to one another. It is true for unchanging characteristics, such as race and gender; and it is true for attributes over which we have control, such as political orientation and religion. This pattern is typically referred to as homophily (in my thesis I use the term &#8220;network autocorrelation&#8221; which is less ambiguous, but more cumbersome). Homophily arises because a) people prefer to form relationships with people who are similar to themselves, a mechanism called selection, and/or b) people become more similar to their friends over time, a mechanism called influence.</p>
+        </div>        
+      </div>       
+
+      <div class="row top-buffer">
+        <div class="col-lg-6" style="padding: 75px 50px 0px 50px;">
+          <h2><a href="http://won1k.github.io/cs109/">Scripting for success in Hollywood</a></h2>
+          <p>Is it possible to predict box office success with only a movie script? In this project for 
+          <a href="http://cs109.org/">CS109: Data Science</a>, we decided to find out. Using a Latent Dirichlet Allocation
+          model to identify prevalent topics, we were able to predict box office success with reasonable accuracy.</p>
+        </div>         
+        <div class="col-lg-6" style="padding: 15px 15px 0px 0px;">
+          <img class="img-thumbnail" src="/assets/img/test_set_perf.png" border="5"></img>
+        </div>
+     
+      </div> 
+
+
+      <div class="row top-buffer">
+        <div class="col-lg-6" style="padding: 15px 15px 15px 15px;">
+          <img class="img-thumbnail" src="/assets/img/raspberry_patch.png" border="5"></img>
+        </div>    
+        <div class="col-lg-6" style="padding: 100px 0px 15px 15px;">
+          <h2><a href="http://pjbull.github.io/raspberry-patch/">Raspberry Pi cluster</a></h2>
+          <p>As the final project for <a href="http://iacs-courses.seas.harvard.edu/courses/cs205/">CS205: Computing Foundations for Computational Science</a>, my partner and I tested out our parallel computing chops by building a 16-node Raspberry Pi cluster.</p>
+        </div>         
+      </div>          
 
 
       <div id="myFooter"></div>  
